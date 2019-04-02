@@ -1,0 +1,17 @@
+<script>
+
+var alunos = prompt("quantos alunos?");
+var i = 0
+var aprovados = 0
+
+while(alunos > i){
+	var nota = prompt("nota")
+
+	if(nota >= 7){
+		aprovados = aprovados + 1
+	}
+	i = i + 1
+}
+
+document.write("passou " + aprovados + " alunos")
+</script>
