@@ -6,7 +6,6 @@ somaImpar = 0;
 
 i = 1;
 
-x = numero 
 while(i <= 10){
 	var numero = parseInt(prompt("valor do numero"));
 	i++
